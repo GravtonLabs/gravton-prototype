@@ -1,0 +1,11 @@
+# Secrets — never commit the real key
+.env
+ 
+# Runtime database / generated drafts
+data/
+ 
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/

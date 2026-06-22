@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: content-studio-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python script.py
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 10000
+      - key: ANTHROPIC_API_KEY
+        sync: false          # set in Render dashboard
+      - key: USERS
+        sync: false          # e.g. alice:pass123,bob:pass456
+      - key: JWT_SECRET
+        generateValue: true  # auto-generated random secret
+      - key: CORS_ORIGIN
+        sync: false          # set to your Vercel URL, e.g. https://content-studio.vercel.app
+    disk:
+      name: data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1
