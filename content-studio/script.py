@@ -2339,6 +2339,15 @@ class Handler(BaseHTTPRequestHandler):
                 ctype, data, fname = orch.export(fmt)
                 return self._send(200, data, ctype,
                                   {"Content-Disposition": f'attachment; filename="{fname}"'})
+            if action == "download":
+                if not _session_exists(u, sid):
+                    return self._json(404, {"error": "not found"})
+                orch = self.registry.get(u, sid)
+                state = orch.sessions.read()
+                data = json.dumps(state, indent=2, ensure_ascii=False).encode("utf-8")
+                fname = f"session_{sid[:8]}.json"
+                return self._send(200, data, "application/json",
+                                  {"Content-Disposition": f'attachment; filename="{fname}"'})
 
         return self._send(404, b"not found", "text/plain")
 

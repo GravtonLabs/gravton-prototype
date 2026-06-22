@@ -1,5 +1,5 @@
 'use client'
-import { SessionState, downloadExport } from '@/lib/api'
+import { SessionState, downloadExport, downloadSessionJson } from '@/lib/api'
 
 const PHASES = ['intent', 'workplan', 'outline', 'draft', 'editor', 'done']
 const BLOCK_LABELS: Record<string, string> = {
@@ -140,6 +140,14 @@ export default function InfoPanel({ state, sessionId }: Props) {
           ruleset: {state.ruleset_name}
         </div>
       )}
+
+      {/* Download session */}
+      <section style={styles.section}>
+        <h3 style={styles.sectionTitle}>Session</h3>
+        <button onClick={() => downloadSessionJson(sessionId)} style={styles.downloadBtn}>
+          Download session.json
+        </button>
+      </section>
     </div>
   )
 }
@@ -233,5 +241,16 @@ const styles: Record<string, React.CSSProperties> = {
   dim: {
     color: 'var(--dim)',
     fontSize: 12,
+  },
+  downloadBtn: {
+    padding: '5px 10px',
+    borderRadius: 7,
+    border: '1px solid #2a3040',
+    background: 'transparent',
+    color: '#9fb2e0',
+    fontSize: 12,
+    cursor: 'pointer',
+    width: '100%',
+    textAlign: 'left' as const,
   },
 }
