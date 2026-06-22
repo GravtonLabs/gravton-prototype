@@ -16,7 +16,7 @@ services:
       - key: JWT_SECRET
         generateValue: true  # auto-generated random secret
       - key: CORS_ORIGIN
-        sync: false          # set to your Vercel URL, e.g. https://content-studio.vercel.app
+        sync: false          # comma-separated origins, e.g. https://foo.vercel.app,https://bar.vercel.app
     disk:
       name: data
       mountPath: /opt/render/project/src/data

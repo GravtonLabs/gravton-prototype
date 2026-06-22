@@ -156,7 +156,9 @@ def _parse_users(raw: str) -> dict:
 
 USERS_MAP: dict = _parse_users(os.environ.get("USERS", ""))
 JWT_SECRET: str = os.environ.get("JWT_SECRET", uuid.uuid4().hex)
-CORS_ORIGIN: str = os.environ.get("CORS_ORIGIN", "*")
+_CORS_RAW: str = os.environ.get("CORS_ORIGIN", "*")
+# Support comma-separated list: "https://a.vercel.app,https://b.onrender.com"
+_CORS_ORIGINS: set = {o.strip() for o in _CORS_RAW.split(",") if o.strip()}
 
 
 def make_token(username: str) -> str:
@@ -2258,7 +2260,15 @@ class Handler(BaseHTTPRequestHandler):
 
     # --- response helpers ---------------------------------------------------
     def _cors(self):
-        self.send_header("Access-Control-Allow-Origin", CORS_ORIGIN)
+        origin = self.headers.get("Origin", "")
+        if "*" in _CORS_ORIGINS:
+            allowed = "*"
+        elif origin in _CORS_ORIGINS:
+            allowed = origin
+            self.send_header("Vary", "Origin")
+        else:
+            allowed = next(iter(_CORS_ORIGINS), "*")
+        self.send_header("Access-Control-Allow-Origin", allowed)
         self.send_header("Access-Control-Allow-Methods", "GET, POST, DELETE, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "Content-Type, Authorization")
 
