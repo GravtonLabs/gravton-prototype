@@ -12,6 +12,7 @@ eggs/
 .eggs/
 lib/
 lib64/
+!content-studio/web/lib/
 parts/
 sdist/
 var/
