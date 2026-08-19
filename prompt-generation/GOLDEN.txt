@@ -1,0 +1,164 @@
+what is generative engine optimization, and is it the same as ai search optimization
+what is ai search visibility
+what is ai citation tracking
+what is ai share of voice
+what is an ai visibility audit
+what does aeo stand for
+what is the difference between a mention and a citation in ai answers
+what is ai content governance
+what is multi-agent content generation
+geo vs aeo vs seo, what is the difference
+do we still need traditional seo if we do geo
+can optimizing for ai search hurt our google rankings
+how do ai assistants decide which sources to cite
+what is the difference between tracking prompts and tracking keywords
+why is my website not showing up in chatgpt answers
+we rank well on google but are missing from perplexity, why
+we rank on google but never appear in ai overviews, why
+our organic traffic is up but ai visibility is down, why
+why do ai assistants recommend our competitors but not us
+our content appears on reddit but not in chatgpt, what is wrong
+we blocked ai crawlers in robots.txt, is that why we do not appear in chatgpt, what did we lose and is it reversible
+our d2c brand never appears in ai shopping answers, why
+we published 20 ai-written articles last quarter, traffic did not move and none get cited by chatgpt, what did we get wrong
+how do we get our brand to appear in more ai search results and responses
+how do we improve our citations across chatgpt, claude and gemini
+how do we get perplexity to cite our site
+how do we get claude to recommend our product
+how do we track when ai cites our site
+what are the current best practices for generative engine optimization
+what do most teams get wrong with geo
+do generative engine optimization tactics actually work or is it hype
+is ai search big enough yet to be worth spending money on
+how long does it take to start showing up in ai answers
+what can we learn from ai search data
+our board wants a number for what ai search is worth to us next year and i do not have a defensible way to build that forecast, how do others do it
+what are the best ai visibility and generative engine optimization tools
+best free ai visibility tool
+where can we get a free ai visibility audit
+what are the best tools for tracking citations across chatgpt, perplexity and gemini in one place
+best tools for tracking brand mentions across ai assistants
+best tools that cover both seo and ai search
+best tools for tracking competitor visibility in ai search
+best tools for finding gaps in our content for ai search
+best tools for measuring ai search traffic and attribution
+which platforms are best for mapping ai search demand and identifying demand opportunities in our industry
+which tools show what buyers ask before visiting our site
+what are the best platforms for measuring customer adoption health across ai sources
+what are the best tools for generating content that ai assistants cite
+best tools for auditing ai readiness and schema compliance
+best tools for checking whether ai crawlers can read our site
+what is the simplest ai visibility tool that gives actionable insights
+how do top e-commerce brands track ai search visibility
+how do enterprise teams track ai citations at scale
+best ai visibility tools for b2b saas
+best ai visibility tools for ecommerce and d2c brands
+best ai visibility tool for hotels and hospitality groups
+best ai visibility tools for regulated industries like insurance and healthcare
+best enterprise ai visibility platforms
+best ai visibility tool for agencies managing multiple brands
+best geo agency for ecommerce brands
+best generative engine optimization service for b2b saas
+can our existing seo agency handle ai search, and how do we judge whether we need a separate specialist
+do we need a separate ai visibility tool or is our seo platform enough
+what skills does someone need to run ai search optimization in house
+what does a generative engine optimization program actually involve month to month
+how do i sell ai search work to my seo clients
+is ai search optimization worth it for a b2b saas company
+how accurate are ai visibility tools at tracking citations
+how do ai visibility tools handle answers that differ by user and location
+how many prompts do we need to track to get a reliable read on ai visibility
+how do we know the prompts a visibility tool tracks are the ones our buyers actually ask
+do ai visibility tools track claude and grok or only chatgpt
+how often should we check what ai says about our brand
+how do we run an ai visibility audit on our website
+what should an ai visibility audit cover
+how do we measure our brand visibility in ai search relative to competitors
+why does ai traffic show up as direct or no-referrer in ga4, and how should we measure it accurately
+how much of our traffic actually comes from ai assistants
+how do we know if ai search is affecting our pipeline
+how do we connect ai search visibility to leads and revenue
+how much revenue are we losing to ai-mediated discovery
+how do we prove to our cfo that ai search work paid off
+what is the most reliable way to attribute a deal to an ai assistant
+is ai referral traffic worth measuring when the volume is still small
+how do we measure buyers who research in ai and never click
+how do we know if ai visibility impacts our conversion rates
+which pages on our site are already cited by chatgpt, and how do we identify the page behind each citation
+how do we measure the demand our brand gets from ai search
+does getting cited in ai answers actually send us traffic
+is being cited with a link better than being mentioned without one
+which sources and specific competitor pages are winning citations in ai answers
+how many competitors can we track in an ai visibility tool
+how do we map our ai search demand universe and find the prompts our buyers actually use
+how do we find the gaps where ai does not mention us
+which ai visibility gaps should we fix first, and how do we turn them into an actionable worklist
+how do we write and optimize content so ai assistants will cite it
+what content formats do ai assistants cite most
+how do we optimize a page for google ai overviews
+how do we show up in gemini answers, and what needs to change on our site
+does schema markup help our content appear in ai answers
+should we rewrite existing pages for ai citations or create new ones
+do internal links change whether ai assistants cite a page
+does duplicate content hurt us in ai answers
+does citing sources make ai more likely to quote our content
+which third-party sources does ai trust most in our category, and how do we get mentioned there
+how do we turn a customer question into a content brief
+build us a content plan for the questions our buyers ask ai assistants
+how do we keep ai-generated content on brand at scale
+what approval process do we need before a tool publishes content on our site
+how do we make sure ai-written content cites real sources and not made-up ones
+how do we stop ai-written pages from turning into near-duplicates of each other
+how much editing does ai-generated content need before we can publish it
+can a regulated business safely publish ai-written content
+how do we check whether ai crawlers can access our site and identify what is blocking them
+should we block ai crawlers or let them in
+is llms.txt worth setting up or is it ignored
+how do we let ai answer engines read our content without giving it away for training
+our site is built in react and ai assistants seem to see nothing, what do we do
+how do we get our products recommended in ai shopping answers
+what does an ecommerce ai search strategy look like at the product level
+can ai assistants see our product catalog and our prices
+do ai assistants recommend our hotels, how do we find out whether we appear, and what determines inclusion
+how should a b2b saas company start improving its ai search visibility
+which pages matter most for saas visibility in ai answers
+how does an insurance tech company improve ai visibility
+how do healthcare brands get cited by ai without making claims they cannot support
+how do regulated industries approach ai search visibility without creating compliance risk
+how do large brands manage ai visibility across many product lines
+does geo strategy change by industry
+give us a current snapshot of whether ai assistants know and mention our brand
+set up monitoring for our brand across chatgpt, gemini, perplexity and claude
+put together an ai search plan for a b2b saas company selling to finance teams
+build an ai search plan for our d2c skincare brand
+help us build a generative engine optimization plan for the next quarter
+help us audit our content for ai readiness and citations
+rewrite our top landing page so ai assistants can cite it
+how do we check whether claude, grok and other ai assistants mention our brand
+gravton vs profound for ai search visibility
+gravton vs conductor for ai tracking
+gravton vs brightedge for ai visibility management
+gravton vs semrush for tracking ai search visibility
+gravton vs searchable for b2b saas
+compare gravton, brandwatch and profound for ai monitoring
+alternatives to profound for ai visibility tracking
+cheaper alternative to profound for a solo marketer
+alternatives to gravton
+alternatives to semrush for generative engine optimization
+alternatives to ahrefs for llm optimization
+is semrush ai visibility add-on enough or do we need a dedicated platform
+is gravton worth it
+does gravton measure ai visibility across chatgpt and perplexity
+does gravton offer a free ai visibility audit
+does gravton show which ai visibility gaps to fix first
+does gravton work for hotels
+how much do ai visibility platforms cost
+do ai visibility platforms have a free trial or do you have to talk to sales
+how does per-brand pricing compare to seat-based pricing for ai visibility tools
+what does an ai content platform cost per month for a small team
+how to evaluate ai visibility platforms before an rfp
+what should i prioritize in an ai visibility tool: competitive share of voice or deep reporting
+which ai visibility tools connect to ga4 and hubspot
+help us shortlist three ai visibility platforms for a 30 person saas company to demo next month
+top tools for measuring ai visibility lift and roi
+set up tracking so we can see which visits started inside an ai assistant

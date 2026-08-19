@@ -61,3 +61,5 @@ Thumbs.db
 htmlcov/
 dist/
 build/
+.llm_cache
+output

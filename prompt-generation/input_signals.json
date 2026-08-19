@@ -1,0 +1,3012 @@
+{
+  "what": "The INPUT to stage [2] consolidation: the merged SIGNAL_BANK for one vertical, exactly as merge_banks produced it, plus the payload the model actually received and the context sent beside it.",
+  "run": {
+    "brand": "Gravton Labs",
+    "domain_id": 54,
+    "vertical": "Generative Engine Optimization",
+    "module_id": "saas",
+    "source_run_id": "manual__2026-08-11T13:32:49.009208+00:00"
+  },
+  "signal_shape": {
+    "fields": [
+      "lifecycle",
+      "grounded_phrase",
+      "provenance"
+    ],
+    "note": "axis, intent_layer, use_case, competitor_compared and intent were all removed on 2026-08-12. grounded_phrase is a plain STRING here — it becomes a LIST of every merged wording only AFTER consolidation.",
+    "provenance": "keyword (1a) | web (1c) | competitor (1d) | template_generated (1e); stamped in code by merge_banks, never self-reported."
+  },
+  "counts": {
+    "total": 296,
+    "by_provenance": {
+      "keyword": 118,
+      "template_generated": 3,
+      "competitor": 145,
+      "web": 30
+    },
+    "by_lifecycle": {
+      "pre_purchase": 284,
+      "post_purchase": 12
+    }
+  },
+  "context_sent": {
+    "PROFILE": {
+      "brand_name": "Gravton Labs",
+      "product_vertical": "Generative Engine Optimization"
+    },
+    "BUYER_SEGMENTS": [
+      "marketing teams at B2B SaaS companies",
+      "marketing teams at healthcare and pharma brands",
+      "marketing teams at finance and insurtech companies",
+      "marketing teams at manufacturing companies",
+      "marketing teams at retail and e-commerce brands",
+      "marketing teams at hospitality and travel brands",
+      "marketing teams at professional services firms"
+    ],
+    "VERTICAL_LENS": "\n\n## Vertical: SaaS\n\nThis module governs prompt generation for SaaS brands: companies selling software as a subscription service to individuals, teams, or enterprises. This includes productivity tools, design tools, analytics platforms, developer tools, marketing software, and all other software-as-a-service categories.\n\n\n\n## What counts as ONE decision in SaaS\n\nINTERCHANGEABLE — different words for one buying question, group them:\nthe several names one category goes by (the buyer's phrasing, the vendor's phrasing, the acronym, the marketing coinage); the generic noun — software, tool, platform, app, system, solution; two words for ONE role that are the same buyer (\"SEO lead\" / \"head of SEO\"); the task stated as a workflow (\"how do I [task]\") beside the same task stated as a category (\"[category] tool\"); plan, tier or edition names when the question is which one to pick; and where the buyer is looking (a review site, a marketplace, a directory) beside the plain question.\n\nSaaS duplicates hide in vocabulary rather than in variants: one capability arrives as a workflow question from a keyword, as a plain-English complaint from a forum, and as a vendor's feature clause. Those three are one decision.\n\nDIFFERENT OFFERINGS — never group across these:\nthe buyer's INDUSTRY or company type (\"[category] for healthcare\", \"[category] for B2B SaaS\"), which names a different buyer, not a different word for one — see the base prompt's buyer-segment rule; a NAMED third-party platform, model or channel the question is about, which asks about that platform's coverage; a required integration with a NAMED system; a compliance, residency or security requirement (a certification, where data is stored, single sign-on); a deployment model (self-hosted against hosted, on-premise against cloud); a seat, volume, or scale limit; a budget ceiling or a free-tier / open-source requirement; two capabilities a buyer would license or trial separately, however adjacent the wording; and building it in-house against buying it.\n"
+  },
+  "signals": [
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "aeo",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "aeo vs seo",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai citation monitoring pricing",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai citation tracking",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai citations",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai content governance",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai prompt market analysis tool",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai search attribution",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai search audit",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai search visibility",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai search visibility for b2b software",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai seo",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai share of voice",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai visibility",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai visibility audit free",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai visibility for healthcare",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai visibility measurement metrics",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai visibility monitoring for fintech",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai visibility monitoring for healthcare",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai visibility platform",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai visibility tool alternatives",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai visibility tracking software",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai-ready content creation workflow for enterprises",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ai-ready content studio",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "answer engine optimization",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "audit to find gaps in ai citations",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "automate ai search visibility tracking",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "best ai visibility tools for seo agencies",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "best geo platforms",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "best practices for generative engine optimization",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "build content for ai search engines",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "chatgpt brand mentions",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "chatgpt seo",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "citation monitoring for ai",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "claude ai optimization",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "claude visibility",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "compare ai visibility tools",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "compare geo platforms for enterprise brands",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "competitive ai visibility",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "competitive benchmarking for ai citations",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "compliant ai visibility tracking",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "content gap analysis",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "content gap analysis for ai search",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "content studio",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "content studio with ai visibility intelligence",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "copilot ranking",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "copilot search tracking",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "crawlability audit ai",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "cross brand ai share of voice",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "d2c ai search visibility",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "enterprise ai visibility onboarding support",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "enterprise ai visibility platform",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "enterprise geo platform",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "fintech aeo strategy",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "founders guide to ai search",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "free ai search visibility audit",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "gemini ranking",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "gemini visibility tracking",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "generative ai monitoring",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "generative engine optimization",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "generative engine optimization for insurance",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "geo",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "geo for b2b saas",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "geo for ecommerce",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "geo for regulated industries",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "geo software for agencies",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "geo tools",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "geo vs aeo",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "geo vs seo",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "google ai overview optimization",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "google ai overviews monitoring",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "grok ai visibility",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "grok seo",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "hotel ai search visibility",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "how to fix content gaps in ai responses",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "how to get cited in ai answers",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "how to get mentioned by chatgpt",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "how to map buyer prompts across ai platforms",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "how to monitor brand mentions in chatgpt",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "how to optimize content for claude ai",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "how to rank chatgpt",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "how to rank in google ai overviews",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "how to track ai driven pipeline",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "how to track perplexity referral traffic",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "import google search console",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "improve brand visibility in perplexity",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "industry-specific geo",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "integrate gsc with ai visibility tools",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "intent intelligence ai",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "legal ai search visibility",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "llm seo",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "llm source tracking",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "lower visibility in ai answers fix",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "measure ai citations",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "measure ai share of voice for brands",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "measure ai-driven attribution and revenue",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "migrate seo strategy to geo",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "multi-source listening for llm citations",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "opportunity gap analysis",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "perplexity seo",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "post-purchase ai tracking",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "pr ai search visibility tracking",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "prompt market analysis",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "prompt monitoring",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "prompt taxonomy",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "prompt taxonomy examples",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "prompt tracking",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "prompt-level share of voice benchmarking tool",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "prompt-level visibility tool",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "semrush ai visibility comparison",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "tools to monitor chatgpt citations",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "tools to track ai citations across platforms",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "track ai search results",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "track ai search visibility without manual prompts",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "track perplexity citations",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "track which pages ai models cite most",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "white-labeled geo reporting",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "why my brand not showing up in chatgpt",
+      "provenance": "keyword"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Gravton Labs pricing",
+      "provenance": "template_generated"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Gravton Labs accuracy",
+      "provenance": "template_generated"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "whether generative engine optimization tools actually work",
+      "provenance": "template_generated"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "reveals what people are actually asking Answer Engines",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Filter prompt volume data by platform, age range, or income bracket to see how AI search demand for a keyword varies across audience segments",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Find out if the queries you're tracking have informational, commercial, conversational, or generative intent",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Identify which intents have the highest volume and prioritize content creation where it will drive the most AI visibility",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "See how often your brand appears in AI answers",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Understand what AI is saying about your brand and topics",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "shows you inaccurate claims and their sources, so your team can correct the narrative",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Track how AI mentions your brand, analyze sentiment, and benchmark against competitors",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Measure how often your brand appears in AI answers using share of voice and visibility score metrics across all major platforms",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Start with Answer Engine Insights to find the prompts where competitors get cited and you don't",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "will surface unexpected competitors you may not have been tracking before",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Compare your citation share against competitors by platform, topic, and prompt",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "gives you a clear view of every source AI pulls from",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Classify every cited source as Owned, Competitor, Earned Media, PR Wire, Social, or Institution, then filter to any category for focused analysis",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Track how citation volume changes to individual pages over time to measure the AEO impact of new or updated content",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Identify the top-cited publishers and authors driving AI citations in your category",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "analyze AI-generated responses segmented by specific countries or regions",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Monitor AI crawler activity on your site, measure AI traffic, and optimize for crawlability",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "See exactly how AI visibility drives traffic and conversions on your site",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "relies on server-side request data rather than client-side tracking",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "We cross-check IP addresses with published ranges from AI providers",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "seamlessly integrates with any website or application, providing powerful analytics and insights for your digital presence",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Build automated content workflows that research, write, and publish AEO-optimized content",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Any member of your content or marketing team can build, run, and launch a full workflow in minutes without dev support",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "recommends the content format most likely to earn citations",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Identify pages with declining AI citation rates and generate updated versions structured to reclaim that visibility",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Create structured FAQs engineered for the format AI engines prefer to cite",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "automatically generate a brief or a full draft for the content you need to compete in those results",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "workflows reference your brand kit to maintain tone and guidelines, and approval steps keep a human in the publishing loop before anything goes live",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Agents connect to your existing CMS and publish approved content without manual transfers or extra steps",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Content output grows without headcount growing with it",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "turning data into automated action with minimal manual overhead",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Connect Google Search Console to Profound and unify traditional and AI Search insights",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Connect Looker and Profound to merge business and marketing data",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Workflows pull from your brand kit, tone guidelines, and knowledge base to keep every draft on-brand",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Ensure AI decisions align with brand, compliance, and security",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Uncover and organize the prompts that matter most for your AI search strategy.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "The Visibility Score measures the percentage of AI responses that mention your brand.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Visibility instead depends on how often your brand is surfaced and cited across its answers, and how it's framed relative to competitors.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "classifying each as positive, neutral, or negative, so you can see not just if you're mentioned, but how you're being described.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "tracks which of these grounding sources mention your brand and how often they get selected.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "tracks sources that shape AI search results, letting you target domains for citations.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "groups them into content-type clusters (like editorial listicles, Reddit discussions, or product pages), calculates competitive gaps, and gives you step-by-step guidance on what to create, optimize, or influence next.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "ranks each recommendation by expected impact, letting you know exactly what content to create or optimize.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "turns visibility data into clear, prioritized guidance.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Find opportunities to get featured in the sources shaping Gemini mentions.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Make your own content clear, factual, and crawlable by AI bots so it can be easily retrieved and cited.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Then track which prompts mention your brand and which competitors appear instead, and close those gaps over time.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "mentions and cites a different competitor set than Gemini, Perplexity, or Claude.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "start from the sources Peec AI shows are already grounding Gemini's answers on your topic, and strengthen your presence there rather than applying a generic AI-visibility strategy across every model.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "tracks it continuously so you don't have to check manually.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "You can set up and monitor multiple sub-brands within your account, ensuring each gets its own visibility tracking.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Prompts can be shared across your account, allowing you to allocate it to different projects or brands as needed.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "You can upgrade or adjust your prompt volume at any time to match your usage and growth.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "You can track queries across any supported country or language with no additional cost.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Your credit pool is shared across all projects. You decide how much each client gets and can reallocate anytime by adjusting prompts or models at the project level.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "you can decide which models and how many to track at the project level.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "integrate your BI stack through three channels: the Google Looker Studio connector for drag-and-drop dashboards, the REST API for custom data pipelines, or the Model Context Protocol (MCP) to feed visibility data directly into AI agents",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "The API provides a way for developers to programmatically work with the same data available in our platform.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "feed visibility data directly into AI agents",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "shows three key areas of your AI search performance, plus Recent Chats and powerful filters to focus your analysis",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "measure how often your brand appears in AI answers, automatically benchmarked against your competitor median",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "track your brand’s share of voice and sentiment across several AI platforms",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "track the sentiment, narratives, and topics AI platforms associate with your brand",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "see the specific topics where competitors are mentioned by AI and you’re not",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "see how any domain performs across AI platforms—which pages get cited most, which topics drive mentions, and where visibility gaps exist",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "analyzes your brand's visibility and competitive positioning across AI search platforms",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "The top user queries that trigger an LLM to mention your brand",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "High-volume prompts related to your industry where your brand is not mentioned in the AI's answer",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "helps you discover and prioritize the topics and prompts people use in AI-generated search",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "See the total AI search volume for all topics related to your phrase to understand its overall popularity",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Prompt Research surfaces conversational queries, the intent behind them, and which brands are being recommended by AI",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "lets you monitor your brand’s daily visibility for a custom set of prompts across AI search platforms",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "monitors your daily visibility across multiple search engines and AI platforms from one dashboard",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "analyzes your existing content and gives prioritized recommendations for both Google and LLM visibility",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Get specific recommendations to improve content structure, clarity, and entity signals before you publish",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "identifies which AI crawlers your site is blocking and highlights technical barriers that could prevent your content from appearing in AI-generated answers",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Decide whether to allow or disallow specific AI crawlers",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "A low AI Search Health score means there are technical barriers limiting your AI visibility",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "you can estimate how much referral traffic your competitors are getting from AI platforms like ChatGPT and Gemini",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "show exactly how much traffic AI platforms drive to your site, alongside high level AI visibility metrics and SEO performance",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "gives you a drag-and-drop interface to build your own reports and dashboards",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "By connecting your Google Analytics and Google Search Console accounts to Semrush, you can analyze all of your website’s data from one central location",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "built for large teams managing visibility across multiple markets, brands, or regions",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "offers unlimited prompt tracking, dedicated support, and custom integrations tailored to your specific business needs",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "AI Visibility Score is Semrush's proprietary metric that measures how often your brand appears in AI answers, automatically benchmarked against your competitor median. It updates daily and covers worldwide and regional breakdowns",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "reveals the previously invisible traffic from AI systems like ChatGPT, Claude, and Google Gemini that visit your website",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "shows how they convert to actual human traffic through AI citations",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "works at the server level to capture every AI interaction with your content",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "can be integrated with any platform no matter where it is hosted",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "identifies when, where, and how generative engines are surfacing your brand",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "tells you how much of the generative search conversation belongs to your brand versus others in your space",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "lets you compare performance across engines like ChatGPT, Perplexity, Gemini, Claude, LamaAI, Copilot, and others",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "you might be mentioned by an AI engine without being cited as a source",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "lists every webpage that generative‑AI systems cite when answering questions in your niche",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "shows you where competitors are getting cited in AI-generated answers — but your brand isn't",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "helps you identify which websites to prioritize building relationships with",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "shows which prompts trigger AI answers that cite competitors but not your brand",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "is your single, unified view of every prompt GEO is tracking — and every AI-generated answer those prompts produce",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Sort by Search Volume (descending) and filter for low AI Visibility",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Query fanouts reveal how AI platforms interpret and expand the original prompt",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "gives you a clear picture of whether your brand is being described positively or negatively when it appears in AI answers",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "analyzes mentions of your brand and classifies them as positive, neutral, or negative",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "enables you to track your brand’s AI visibility across multiple geographic regions and languages simultaneously",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "provides a single, consolidated view of every brand-monitoring project associated with a workspace",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "enables instant cross-brand comparison",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "helps brands identify and fix the specific issues preventing their content from being cited by AI platforms",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "scans your indexed content and evaluates it against proven GEO best practices",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Start with High Impact, Low Effort items for quick wins",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "detects when your page title promises content that isn't fully delivered within the article body",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Structured comparison tables enable rich snippets in search results and provide AI systems with clear comparative data for recommendations",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "indicates missing or incomplete structured data that's critical for AI understanding",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Track and compare brand presence across ChatGPT, Claude, Gemini, Perplexity, Google AI Mode, Google AI Overviews, Microsoft Copilot, and Meta AI—all in one workspace.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "preserves the exact answers each platform returns to your prompts at query time, along with citations",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "tracks brand placement in AI responses by showing whether a user’s brand appears in the top, middle, or bottom of AI-generated answers",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "tracks sentiment about brands in AI responses and categorizes it as positive, mixed, or negative",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "shows exactly which sources are being cited by AI models, including branded, competitive, and third-party sources",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "lets you monitor specific URLs across all tracked prompts",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "helps users prioritize citation sources using Influence Score",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "measures AI share of voice by tracking competitive presence—the percentage of AI responses mentioning a user’s brand compared to competitors across tracked prompts",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "tracks competitor visibility across AI platforms through automated monitoring, citation analysis, and gap detection, revealing exactly where competitors outperform a user's brand in AI responses",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Users can be automatically notified when AI responses mention competitors but not their brand.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "lets users filter data based on persona, funnel stage, and more to enable precise analysis of brand performance across customer segments and buyer journey stages",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "allows users to create customer personas that shape how AI models respond to prompts",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "supports prompt tracking in every country, recording the exact responses and citations for any prompt written in any language",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "shows users which AI search topics are growing in their industry via its Trends feature, which includes estimated prompt volume over time, trend line visualizations, brand presence, brand sentiment, competitive presence, and sample prompts and responses",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Click any topic to open its Topic Details page for sentiment, competitive presence, top brands, and sample prompts that can be converted into tracked prompts with one click.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Measurement of sessions, conversions, and revenue attributed to AI platforms via GA4.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "tracks AI platform visits in two ways: Agent Traffic monitors AI bots crawling your website in real time and AI Referrals tracks human visitors who arrive from AI platforms",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "shows exactly which webpages are most visited by AI bots, how often bots visit, which AI platforms are sending the traffic, and what type of request each bot is making",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Classification of request types: training bots, indexer bots, and retrieval bots.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "diagnoses technical and content issues that may prevent AI bots from accessing or consuming site content",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "compares the “human” view versus the “AI” view",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "pages that see a high number of AI requests to access the page but have a low number of citations are prime candidates for further investigation",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "optimizes content for AI without touching the live website",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "delivers an optimized version of page content directly to AI agents without any JavaScript dependency",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "The user’s CDN routes AI user agents to AXP, which delivers AI-optimized content directly to AI crawlers.",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "can pull the updated page and re-optimize it automatically or use a pre-optimized version",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "only affects real-time AI retrieval bots, not search indexing bots",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "works at the CDN level to automatically transform content for AI agents without modifying the codebase or affecting human visitors",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "supports multiple export methods—CSV/Excel, PDF, and APIs—so you can move data into your reports, dashboards, and downstream systems",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "offers two primary APIs to help teams measure and operationalize brand visibility across AI platforms",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Enterprise data API for internal systems, dashboards, and AI workflows",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Multi-brand, multi-domain, multi-region, and multi-language localization",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "supports single sign-on (SSO) with major identity providers",
+      "provenance": "competitor"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "The other tool I’m looking at is Peec ai which has a friendlier pricing model but I want to know if the data quality is still good at their price point.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Profound is genuinely great but the pricing is hard to justify unless you're at enterprise scale not for small business that is my case here",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Writesonic feels like you're paying for a content writer you don't need just to access the tracking features.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "too complex , lots of dashboards and fragmented workflows, but hard to turn into execution (Profound, AirOps)",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "for ai answers and visibility, focus on citation sources, not just serp rankings. we learned google rankings mean little. tracking the actual sources ai models cite with promptopti completely shifted our strategy.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Started with profound, then tried otterly and seranking for a bit too, both fine but felt more built for bigger teams/budgets than what I needed as one person tracking a few brands.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Been testing a few tools for AI visibility tracking",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Has anyone found a way to do this reliably without it becoming a huge time sink?",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "What they don’t seem to do is diagnostics. They don’t explain why something is happening or what specifically to fix.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Most tools dump data on you, then peace out. \"Here's 47 mentions'', this is good luck figuring, but what do you do with them?",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "On Monday I’ll run our core set of test prompts and our brand is front and center. Two days later, I run the exact same prompts and all of our citations/mentions are completely gone.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Find a prompt-level tracking tool and monitor citation frequency over time. A single query run on a Wednesday might give you a false negative if it's a bad inference pull.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "The pattern I keep seeing is that the actual blocker is usually one of three structural things: 1. Crawlability. AI systems literally cannot access the site",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "The brand has plenty of self-published content but zero independent corroboration, i.e., no G2 reviews, no analyst mentions, and no comparison article presence.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "post_purchase",
+      "grounded_phrase": "Create a list of target prompts for which I want to be recommended",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "post_purchase",
+      "grounded_phrase": "Look at the type of content that is being cited within the target prompts",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "post_purchase",
+      "grounded_phrase": "in instances where it seemed to mischaracterize me, in some way, I would update the FAQ to address that specifically and it seemed to take care of it.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "post_purchase",
+      "grounded_phrase": "It's tough to get someone to go back and update an existing article, especially if you're a new brand and/or don't have a relationship with the company.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "post_purchase",
+      "grounded_phrase": "How much should you trust Semrush’s AI Visibility score right now?",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "post_purchase",
+      "grounded_phrase": "Does anyone have some tangible ways on how to increase one's AI Visibility score in SemRush?",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "post_purchase",
+      "grounded_phrase": "SEMrush AI Brand Performance data disappeared from historical view — has this happened to anyone else?",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "post_purchase",
+      "grounded_phrase": "The results are completely different across all four platforms.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Semrush bolts AI visibility onto the SEO suite, so you pay for the whole platform and the AI data comes from clickstream modeling rather than measured runs.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Because AEO is still such a new space, some of the metrics take a bit of learning and context to interpret.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "Being able to compare performance by LLM (Gemini, AI Overview, ChatGPT, Grok, etc.) has provided us with insights into where to focus our efforts on specific tactics",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "post_purchase",
+      "grounded_phrase": "I’d love to see clearer guidance on what to change, where to change it, and how to measure impact.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "post_purchase",
+      "grounded_phrase": "I wish that adding new prompts to track didn't cause apples to oranges comparisons of data before the addition vs data after the addition.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "post_purchase",
+      "grounded_phrase": "I'd really like to see more automated reporting options—something where we could schedule regular reports or get automated insights without having to manually pull everything together each time.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "post_purchase",
+      "grounded_phrase": "We've also run into some technical issues with the platform, like pages loading slowly or certain features temporarily not working as expected.",
+      "provenance": "web"
+    },
+    {
+      "lifecycle": "pre_purchase",
+      "grounded_phrase": "We tested pretty much every AI Visibility measurement tool on the market and concluded that Scrunch has both the best price and presents the data in the most intuitive and actionable way",
+      "provenance": "web"
+    }
+  ],
+  "model_payload_sent": [
+    {
+      "id": 0,
+      "phrase": "aeo",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 1,
+      "phrase": "aeo vs seo",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 2,
+      "phrase": "ai citation monitoring pricing",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 3,
+      "phrase": "ai citation tracking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 4,
+      "phrase": "ai citations",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 5,
+      "phrase": "ai content governance",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 6,
+      "phrase": "ai prompt market analysis tool",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 7,
+      "phrase": "ai search attribution",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 8,
+      "phrase": "ai search audit",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 9,
+      "phrase": "ai search visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 10,
+      "phrase": "ai search visibility for b2b software",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 11,
+      "phrase": "ai seo",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 12,
+      "phrase": "ai share of voice",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 13,
+      "phrase": "ai visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 14,
+      "phrase": "ai visibility audit free",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 15,
+      "phrase": "ai visibility for healthcare",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 16,
+      "phrase": "ai visibility measurement metrics",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 17,
+      "phrase": "ai visibility monitoring for fintech",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 18,
+      "phrase": "ai visibility monitoring for healthcare",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 19,
+      "phrase": "ai visibility platform",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 20,
+      "phrase": "ai visibility tool alternatives",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 21,
+      "phrase": "ai visibility tracking software",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 22,
+      "phrase": "ai-ready content creation workflow for enterprises",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 23,
+      "phrase": "ai-ready content studio",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 24,
+      "phrase": "answer engine optimization",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 25,
+      "phrase": "audit to find gaps in ai citations",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 26,
+      "phrase": "automate ai search visibility tracking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 27,
+      "phrase": "best ai visibility tools for seo agencies",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 28,
+      "phrase": "best geo platforms",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 29,
+      "phrase": "best practices for generative engine optimization",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 30,
+      "phrase": "build content for ai search engines",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 31,
+      "phrase": "chatgpt brand mentions",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 32,
+      "phrase": "chatgpt seo",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 33,
+      "phrase": "citation monitoring for ai",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 34,
+      "phrase": "claude ai optimization",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 35,
+      "phrase": "claude visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 36,
+      "phrase": "compare ai visibility tools",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 37,
+      "phrase": "compare geo platforms for enterprise brands",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 38,
+      "phrase": "competitive ai visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 39,
+      "phrase": "competitive benchmarking for ai citations",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 40,
+      "phrase": "compliant ai visibility tracking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 41,
+      "phrase": "content gap analysis",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 42,
+      "phrase": "content gap analysis for ai search",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 43,
+      "phrase": "content studio",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 44,
+      "phrase": "content studio with ai visibility intelligence",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 45,
+      "phrase": "copilot ranking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 46,
+      "phrase": "copilot search tracking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 47,
+      "phrase": "crawlability audit ai",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 48,
+      "phrase": "cross brand ai share of voice",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 49,
+      "phrase": "d2c ai search visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 50,
+      "phrase": "enterprise ai visibility onboarding support",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 51,
+      "phrase": "enterprise ai visibility platform",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 52,
+      "phrase": "enterprise geo platform",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 53,
+      "phrase": "fintech aeo strategy",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 54,
+      "phrase": "founders guide to ai search",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 55,
+      "phrase": "free ai search visibility audit",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 56,
+      "phrase": "gemini ranking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 57,
+      "phrase": "gemini visibility tracking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 58,
+      "phrase": "generative ai monitoring",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 59,
+      "phrase": "generative engine optimization",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 60,
+      "phrase": "generative engine optimization for insurance",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 61,
+      "phrase": "geo",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 62,
+      "phrase": "geo for b2b saas",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 63,
+      "phrase": "geo for ecommerce",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 64,
+      "phrase": "geo for regulated industries",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 65,
+      "phrase": "geo software for agencies",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 66,
+      "phrase": "geo tools",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 67,
+      "phrase": "geo vs aeo",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 68,
+      "phrase": "geo vs seo",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 69,
+      "phrase": "google ai overview optimization",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 70,
+      "phrase": "google ai overviews monitoring",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 71,
+      "phrase": "grok ai visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 72,
+      "phrase": "grok seo",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 73,
+      "phrase": "hotel ai search visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 74,
+      "phrase": "how to fix content gaps in ai responses",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 75,
+      "phrase": "how to get cited in ai answers",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 76,
+      "phrase": "how to get mentioned by chatgpt",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 77,
+      "phrase": "how to map buyer prompts across ai platforms",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 78,
+      "phrase": "how to monitor brand mentions in chatgpt",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 79,
+      "phrase": "how to optimize content for claude ai",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 80,
+      "phrase": "how to rank chatgpt",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 81,
+      "phrase": "how to rank in google ai overviews",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 82,
+      "phrase": "how to track ai driven pipeline",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 83,
+      "phrase": "how to track perplexity referral traffic",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 84,
+      "phrase": "import google search console",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 85,
+      "phrase": "improve brand visibility in perplexity",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 86,
+      "phrase": "industry-specific geo",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 87,
+      "phrase": "integrate gsc with ai visibility tools",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 88,
+      "phrase": "intent intelligence ai",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 89,
+      "phrase": "legal ai search visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 90,
+      "phrase": "llm seo",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 91,
+      "phrase": "llm source tracking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 92,
+      "phrase": "lower visibility in ai answers fix",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 93,
+      "phrase": "measure ai citations",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 94,
+      "phrase": "measure ai share of voice for brands",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 95,
+      "phrase": "measure ai-driven attribution and revenue",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 96,
+      "phrase": "migrate seo strategy to geo",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 97,
+      "phrase": "multi-source listening for llm citations",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 98,
+      "phrase": "opportunity gap analysis",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 99,
+      "phrase": "perplexity seo",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 100,
+      "phrase": "post-purchase ai tracking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 101,
+      "phrase": "pr ai search visibility tracking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 102,
+      "phrase": "prompt market analysis",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 103,
+      "phrase": "prompt monitoring",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 104,
+      "phrase": "prompt taxonomy",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 105,
+      "phrase": "prompt taxonomy examples",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 106,
+      "phrase": "prompt tracking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 107,
+      "phrase": "prompt-level share of voice benchmarking tool",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 108,
+      "phrase": "prompt-level visibility tool",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 109,
+      "phrase": "semrush ai visibility comparison",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 110,
+      "phrase": "tools to monitor chatgpt citations",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 111,
+      "phrase": "tools to track ai citations across platforms",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 112,
+      "phrase": "track ai search results",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 113,
+      "phrase": "track ai search visibility without manual prompts",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 114,
+      "phrase": "track perplexity citations",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 115,
+      "phrase": "track which pages ai models cite most",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 116,
+      "phrase": "white-labeled geo reporting",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 117,
+      "phrase": "why my brand not showing up in chatgpt",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 118,
+      "phrase": "Gravton Labs pricing",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 119,
+      "phrase": "Gravton Labs accuracy",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 120,
+      "phrase": "whether generative engine optimization tools actually work",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 121,
+      "phrase": "reveals what people are actually asking Answer Engines",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 122,
+      "phrase": "Filter prompt volume data by platform, age range, or income bracket to see how AI search demand for a keyword varies across audience segments",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 123,
+      "phrase": "Find out if the queries you're tracking have informational, commercial, conversational, or generative intent",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 124,
+      "phrase": "Identify which intents have the highest volume and prioritize content creation where it will drive the most AI visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 125,
+      "phrase": "See how often your brand appears in AI answers",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 126,
+      "phrase": "Understand what AI is saying about your brand and topics",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 127,
+      "phrase": "shows you inaccurate claims and their sources, so your team can correct the narrative",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 128,
+      "phrase": "Track how AI mentions your brand, analyze sentiment, and benchmark against competitors",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 129,
+      "phrase": "Measure how often your brand appears in AI answers using share of voice and visibility score metrics across all major platforms",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 130,
+      "phrase": "Start with Answer Engine Insights to find the prompts where competitors get cited and you don't",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 131,
+      "phrase": "will surface unexpected competitors you may not have been tracking before",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 132,
+      "phrase": "Compare your citation share against competitors by platform, topic, and prompt",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 133,
+      "phrase": "gives you a clear view of every source AI pulls from",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 134,
+      "phrase": "Classify every cited source as Owned, Competitor, Earned Media, PR Wire, Social, or Institution, then filter to any category for focused analysis",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 135,
+      "phrase": "Track how citation volume changes to individual pages over time to measure the AEO impact of new or updated content",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 136,
+      "phrase": "Identify the top-cited publishers and authors driving AI citations in your category",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 137,
+      "phrase": "analyze AI-generated responses segmented by specific countries or regions",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 138,
+      "phrase": "Monitor AI crawler activity on your site, measure AI traffic, and optimize for crawlability",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 139,
+      "phrase": "See exactly how AI visibility drives traffic and conversions on your site",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 140,
+      "phrase": "relies on server-side request data rather than client-side tracking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 141,
+      "phrase": "We cross-check IP addresses with published ranges from AI providers",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 142,
+      "phrase": "seamlessly integrates with any website or application, providing powerful analytics and insights for your digital presence",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 143,
+      "phrase": "Build automated content workflows that research, write, and publish AEO-optimized content",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 144,
+      "phrase": "Any member of your content or marketing team can build, run, and launch a full workflow in minutes without dev support",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 145,
+      "phrase": "recommends the content format most likely to earn citations",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 146,
+      "phrase": "Identify pages with declining AI citation rates and generate updated versions structured to reclaim that visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 147,
+      "phrase": "Create structured FAQs engineered for the format AI engines prefer to cite",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 148,
+      "phrase": "automatically generate a brief or a full draft for the content you need to compete in those results",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 149,
+      "phrase": "workflows reference your brand kit to maintain tone and guidelines, and approval steps keep a human in the publishing loop before anything goes live",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 150,
+      "phrase": "Agents connect to your existing CMS and publish approved content without manual transfers or extra steps",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 151,
+      "phrase": "Content output grows without headcount growing with it",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 152,
+      "phrase": "turning data into automated action with minimal manual overhead",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 153,
+      "phrase": "Connect Google Search Console to Profound and unify traditional and AI Search insights",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 154,
+      "phrase": "Connect Looker and Profound to merge business and marketing data",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 155,
+      "phrase": "Workflows pull from your brand kit, tone guidelines, and knowledge base to keep every draft on-brand",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 156,
+      "phrase": "Ensure AI decisions align with brand, compliance, and security",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 157,
+      "phrase": "Uncover and organize the prompts that matter most for your AI search strategy.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 158,
+      "phrase": "The Visibility Score measures the percentage of AI responses that mention your brand.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 159,
+      "phrase": "Visibility instead depends on how often your brand is surfaced and cited across its answers, and how it's framed relative to competitors.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 160,
+      "phrase": "classifying each as positive, neutral, or negative, so you can see not just if you're mentioned, but how you're being described.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 161,
+      "phrase": "tracks which of these grounding sources mention your brand and how often they get selected.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 162,
+      "phrase": "tracks sources that shape AI search results, letting you target domains for citations.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 163,
+      "phrase": "groups them into content-type clusters (like editorial listicles, Reddit discussions, or product pages), calculates competitive gaps, and gives you step-by-step guidance on what to create, optimize, or influence next.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 164,
+      "phrase": "ranks each recommendation by expected impact, letting you know exactly what content to create or optimize.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 165,
+      "phrase": "turns visibility data into clear, prioritized guidance.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 166,
+      "phrase": "Find opportunities to get featured in the sources shaping Gemini mentions.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 167,
+      "phrase": "Make your own content clear, factual, and crawlable by AI bots so it can be easily retrieved and cited.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 168,
+      "phrase": "Then track which prompts mention your brand and which competitors appear instead, and close those gaps over time.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 169,
+      "phrase": "mentions and cites a different competitor set than Gemini, Perplexity, or Claude.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 170,
+      "phrase": "start from the sources Peec AI shows are already grounding Gemini's answers on your topic, and strengthen your presence there rather than applying a generic AI-visibility strategy across every model.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 171,
+      "phrase": "tracks it continuously so you don't have to check manually.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 172,
+      "phrase": "You can set up and monitor multiple sub-brands within your account, ensuring each gets its own visibility tracking.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 173,
+      "phrase": "Prompts can be shared across your account, allowing you to allocate it to different projects or brands as needed.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 174,
+      "phrase": "You can upgrade or adjust your prompt volume at any time to match your usage and growth.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 175,
+      "phrase": "You can track queries across any supported country or language with no additional cost.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 176,
+      "phrase": "Your credit pool is shared across all projects. You decide how much each client gets and can reallocate anytime by adjusting prompts or models at the project level.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 177,
+      "phrase": "you can decide which models and how many to track at the project level.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 178,
+      "phrase": "integrate your BI stack through three channels: the Google Looker Studio connector for drag-and-drop dashboards, the REST API for custom data pipelines, or the Model Context Protocol (MCP) to feed visibility data directly into AI agents",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 179,
+      "phrase": "The API provides a way for developers to programmatically work with the same data available in our platform.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 180,
+      "phrase": "feed visibility data directly into AI agents",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 181,
+      "phrase": "shows three key areas of your AI search performance, plus Recent Chats and powerful filters to focus your analysis",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 182,
+      "phrase": "measure how often your brand appears in AI answers, automatically benchmarked against your competitor median",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 183,
+      "phrase": "track your brand’s share of voice and sentiment across several AI platforms",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 184,
+      "phrase": "track the sentiment, narratives, and topics AI platforms associate with your brand",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 185,
+      "phrase": "see the specific topics where competitors are mentioned by AI and you’re not",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 186,
+      "phrase": "see how any domain performs across AI platforms—which pages get cited most, which topics drive mentions, and where visibility gaps exist",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 187,
+      "phrase": "analyzes your brand's visibility and competitive positioning across AI search platforms",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 188,
+      "phrase": "The top user queries that trigger an LLM to mention your brand",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 189,
+      "phrase": "High-volume prompts related to your industry where your brand is not mentioned in the AI's answer",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 190,
+      "phrase": "helps you discover and prioritize the topics and prompts people use in AI-generated search",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 191,
+      "phrase": "See the total AI search volume for all topics related to your phrase to understand its overall popularity",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 192,
+      "phrase": "Prompt Research surfaces conversational queries, the intent behind them, and which brands are being recommended by AI",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 193,
+      "phrase": "lets you monitor your brand’s daily visibility for a custom set of prompts across AI search platforms",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 194,
+      "phrase": "monitors your daily visibility across multiple search engines and AI platforms from one dashboard",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 195,
+      "phrase": "analyzes your existing content and gives prioritized recommendations for both Google and LLM visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 196,
+      "phrase": "Get specific recommendations to improve content structure, clarity, and entity signals before you publish",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 197,
+      "phrase": "identifies which AI crawlers your site is blocking and highlights technical barriers that could prevent your content from appearing in AI-generated answers",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 198,
+      "phrase": "Decide whether to allow or disallow specific AI crawlers",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 199,
+      "phrase": "A low AI Search Health score means there are technical barriers limiting your AI visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 200,
+      "phrase": "you can estimate how much referral traffic your competitors are getting from AI platforms like ChatGPT and Gemini",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 201,
+      "phrase": "show exactly how much traffic AI platforms drive to your site, alongside high level AI visibility metrics and SEO performance",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 202,
+      "phrase": "gives you a drag-and-drop interface to build your own reports and dashboards",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 203,
+      "phrase": "By connecting your Google Analytics and Google Search Console accounts to Semrush, you can analyze all of your website’s data from one central location",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 204,
+      "phrase": "built for large teams managing visibility across multiple markets, brands, or regions",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 205,
+      "phrase": "offers unlimited prompt tracking, dedicated support, and custom integrations tailored to your specific business needs",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 206,
+      "phrase": "AI Visibility Score is Semrush's proprietary metric that measures how often your brand appears in AI answers, automatically benchmarked against your competitor median. It updates daily and covers worldwide and regional breakdowns",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 207,
+      "phrase": "reveals the previously invisible traffic from AI systems like ChatGPT, Claude, and Google Gemini that visit your website",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 208,
+      "phrase": "shows how they convert to actual human traffic through AI citations",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 209,
+      "phrase": "works at the server level to capture every AI interaction with your content",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 210,
+      "phrase": "can be integrated with any platform no matter where it is hosted",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 211,
+      "phrase": "identifies when, where, and how generative engines are surfacing your brand",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 212,
+      "phrase": "tells you how much of the generative search conversation belongs to your brand versus others in your space",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 213,
+      "phrase": "lets you compare performance across engines like ChatGPT, Perplexity, Gemini, Claude, LamaAI, Copilot, and others",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 214,
+      "phrase": "you might be mentioned by an AI engine without being cited as a source",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 215,
+      "phrase": "lists every webpage that generative‑AI systems cite when answering questions in your niche",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 216,
+      "phrase": "shows you where competitors are getting cited in AI-generated answers — but your brand isn't",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 217,
+      "phrase": "helps you identify which websites to prioritize building relationships with",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 218,
+      "phrase": "shows which prompts trigger AI answers that cite competitors but not your brand",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 219,
+      "phrase": "is your single, unified view of every prompt GEO is tracking — and every AI-generated answer those prompts produce",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 220,
+      "phrase": "Sort by Search Volume (descending) and filter for low AI Visibility",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 221,
+      "phrase": "Query fanouts reveal how AI platforms interpret and expand the original prompt",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 222,
+      "phrase": "gives you a clear picture of whether your brand is being described positively or negatively when it appears in AI answers",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 223,
+      "phrase": "analyzes mentions of your brand and classifies them as positive, neutral, or negative",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 224,
+      "phrase": "enables you to track your brand’s AI visibility across multiple geographic regions and languages simultaneously",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 225,
+      "phrase": "provides a single, consolidated view of every brand-monitoring project associated with a workspace",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 226,
+      "phrase": "enables instant cross-brand comparison",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 227,
+      "phrase": "helps brands identify and fix the specific issues preventing their content from being cited by AI platforms",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 228,
+      "phrase": "scans your indexed content and evaluates it against proven GEO best practices",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 229,
+      "phrase": "Start with High Impact, Low Effort items for quick wins",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 230,
+      "phrase": "detects when your page title promises content that isn't fully delivered within the article body",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 231,
+      "phrase": "Structured comparison tables enable rich snippets in search results and provide AI systems with clear comparative data for recommendations",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 232,
+      "phrase": "indicates missing or incomplete structured data that's critical for AI understanding",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 233,
+      "phrase": "Track and compare brand presence across ChatGPT, Claude, Gemini, Perplexity, Google AI Mode, Google AI Overviews, Microsoft Copilot, and Meta AI—all in one workspace.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 234,
+      "phrase": "preserves the exact answers each platform returns to your prompts at query time, along with citations",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 235,
+      "phrase": "tracks brand placement in AI responses by showing whether a user’s brand appears in the top, middle, or bottom of AI-generated answers",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 236,
+      "phrase": "tracks sentiment about brands in AI responses and categorizes it as positive, mixed, or negative",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 237,
+      "phrase": "shows exactly which sources are being cited by AI models, including branded, competitive, and third-party sources",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 238,
+      "phrase": "lets you monitor specific URLs across all tracked prompts",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 239,
+      "phrase": "helps users prioritize citation sources using Influence Score",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 240,
+      "phrase": "measures AI share of voice by tracking competitive presence—the percentage of AI responses mentioning a user’s brand compared to competitors across tracked prompts",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 241,
+      "phrase": "tracks competitor visibility across AI platforms through automated monitoring, citation analysis, and gap detection, revealing exactly where competitors outperform a user's brand in AI responses",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 242,
+      "phrase": "Users can be automatically notified when AI responses mention competitors but not their brand.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 243,
+      "phrase": "lets users filter data based on persona, funnel stage, and more to enable precise analysis of brand performance across customer segments and buyer journey stages",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 244,
+      "phrase": "allows users to create customer personas that shape how AI models respond to prompts",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 245,
+      "phrase": "supports prompt tracking in every country, recording the exact responses and citations for any prompt written in any language",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 246,
+      "phrase": "shows users which AI search topics are growing in their industry via its Trends feature, which includes estimated prompt volume over time, trend line visualizations, brand presence, brand sentiment, competitive presence, and sample prompts and responses",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 247,
+      "phrase": "Click any topic to open its Topic Details page for sentiment, competitive presence, top brands, and sample prompts that can be converted into tracked prompts with one click.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 248,
+      "phrase": "Measurement of sessions, conversions, and revenue attributed to AI platforms via GA4.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 249,
+      "phrase": "tracks AI platform visits in two ways: Agent Traffic monitors AI bots crawling your website in real time and AI Referrals tracks human visitors who arrive from AI platforms",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 250,
+      "phrase": "shows exactly which webpages are most visited by AI bots, how often bots visit, which AI platforms are sending the traffic, and what type of request each bot is making",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 251,
+      "phrase": "Classification of request types: training bots, indexer bots, and retrieval bots.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 252,
+      "phrase": "diagnoses technical and content issues that may prevent AI bots from accessing or consuming site content",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 253,
+      "phrase": "compares the “human” view versus the “AI” view",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 254,
+      "phrase": "pages that see a high number of AI requests to access the page but have a low number of citations are prime candidates for further investigation",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 255,
+      "phrase": "optimizes content for AI without touching the live website",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 256,
+      "phrase": "delivers an optimized version of page content directly to AI agents without any JavaScript dependency",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 257,
+      "phrase": "The user’s CDN routes AI user agents to AXP, which delivers AI-optimized content directly to AI crawlers.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 258,
+      "phrase": "can pull the updated page and re-optimize it automatically or use a pre-optimized version",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 259,
+      "phrase": "only affects real-time AI retrieval bots, not search indexing bots",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 260,
+      "phrase": "works at the CDN level to automatically transform content for AI agents without modifying the codebase or affecting human visitors",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 261,
+      "phrase": "supports multiple export methods—CSV/Excel, PDF, and APIs—so you can move data into your reports, dashboards, and downstream systems",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 262,
+      "phrase": "offers two primary APIs to help teams measure and operationalize brand visibility across AI platforms",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 263,
+      "phrase": "Enterprise data API for internal systems, dashboards, and AI workflows",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 264,
+      "phrase": "Multi-brand, multi-domain, multi-region, and multi-language localization",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 265,
+      "phrase": "supports single sign-on (SSO) with major identity providers",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 266,
+      "phrase": "The other tool I’m looking at is Peec ai which has a friendlier pricing model but I want to know if the data quality is still good at their price point.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 267,
+      "phrase": "Profound is genuinely great but the pricing is hard to justify unless you're at enterprise scale not for small business that is my case here",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 268,
+      "phrase": "Writesonic feels like you're paying for a content writer you don't need just to access the tracking features.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 269,
+      "phrase": "too complex , lots of dashboards and fragmented workflows, but hard to turn into execution (Profound, AirOps)",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 270,
+      "phrase": "for ai answers and visibility, focus on citation sources, not just serp rankings. we learned google rankings mean little. tracking the actual sources ai models cite with promptopti completely shifted our strategy.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 271,
+      "phrase": "Started with profound, then tried otterly and seranking for a bit too, both fine but felt more built for bigger teams/budgets than what I needed as one person tracking a few brands.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 272,
+      "phrase": "Been testing a few tools for AI visibility tracking",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 273,
+      "phrase": "Has anyone found a way to do this reliably without it becoming a huge time sink?",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 274,
+      "phrase": "What they don’t seem to do is diagnostics. They don’t explain why something is happening or what specifically to fix.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 275,
+      "phrase": "Most tools dump data on you, then peace out. \"Here's 47 mentions'', this is good luck figuring, but what do you do with them?",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 276,
+      "phrase": "On Monday I’ll run our core set of test prompts and our brand is front and center. Two days later, I run the exact same prompts and all of our citations/mentions are completely gone.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 277,
+      "phrase": "Find a prompt-level tracking tool and monitor citation frequency over time. A single query run on a Wednesday might give you a false negative if it's a bad inference pull.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 278,
+      "phrase": "The pattern I keep seeing is that the actual blocker is usually one of three structural things: 1. Crawlability. AI systems literally cannot access the site",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 279,
+      "phrase": "The brand has plenty of self-published content but zero independent corroboration, i.e., no G2 reviews, no analyst mentions, and no comparison article presence.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 280,
+      "phrase": "Create a list of target prompts for which I want to be recommended",
+      "lifecycle": "post_purchase"
+    },
+    {
+      "id": 281,
+      "phrase": "Look at the type of content that is being cited within the target prompts",
+      "lifecycle": "post_purchase"
+    },
+    {
+      "id": 282,
+      "phrase": "in instances where it seemed to mischaracterize me, in some way, I would update the FAQ to address that specifically and it seemed to take care of it.",
+      "lifecycle": "post_purchase"
+    },
+    {
+      "id": 283,
+      "phrase": "It's tough to get someone to go back and update an existing article, especially if you're a new brand and/or don't have a relationship with the company.",
+      "lifecycle": "post_purchase"
+    },
+    {
+      "id": 284,
+      "phrase": "How much should you trust Semrush’s AI Visibility score right now?",
+      "lifecycle": "post_purchase"
+    },
+    {
+      "id": 285,
+      "phrase": "Does anyone have some tangible ways on how to increase one's AI Visibility score in SemRush?",
+      "lifecycle": "post_purchase"
+    },
+    {
+      "id": 286,
+      "phrase": "SEMrush AI Brand Performance data disappeared from historical view — has this happened to anyone else?",
+      "lifecycle": "post_purchase"
+    },
+    {
+      "id": 287,
+      "phrase": "The results are completely different across all four platforms.",
+      "lifecycle": "post_purchase"
+    },
+    {
+      "id": 288,
+      "phrase": "Semrush bolts AI visibility onto the SEO suite, so you pay for the whole platform and the AI data comes from clickstream modeling rather than measured runs.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 289,
+      "phrase": "Because AEO is still such a new space, some of the metrics take a bit of learning and context to interpret.",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 290,
+      "phrase": "Being able to compare performance by LLM (Gemini, AI Overview, ChatGPT, Grok, etc.) has provided us with insights into where to focus our efforts on specific tactics",
+      "lifecycle": "pre_purchase"
+    },
+    {
+      "id": 291,
+      "phrase": "I’d love to see clearer guidance on what to change, where to change it, and how to measure impact.",
+      "lifecycle": "post_purchase"
+    },
+    {
+      "id": 292,
+      "phrase": "I wish that adding new prompts to track didn't cause apples to oranges comparisons of data before the addition vs data after the addition.",
+      "lifecycle": "post_purchase"
+    },
+    {
+      "id": 293,
+      "phrase": "I'd really like to see more automated reporting options—something where we could schedule regular reports or get automated insights without having to manually pull everything together each time.",
+      "lifecycle": "post_purchase"
+    },
+    {
+      "id": 294,
+      "phrase": "We've also run into some technical issues with the platform, like pages loading slowly or certain features temporarily not working as expected.",
+      "lifecycle": "post_purchase"
+    },
+    {
+      "id": 295,
+      "phrase": "We tested pretty much every AI Visibility measurement tool on the market and concluded that Scrunch has both the best price and presents the data in the most intuitive and actionable way",
+      "lifecycle": "pre_purchase"
+    }
+  ]
+}
